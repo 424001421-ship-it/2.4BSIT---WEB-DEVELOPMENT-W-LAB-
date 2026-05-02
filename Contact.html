@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <style>
+    body { font-family: Arial; background: #e595c6; margin: 0; padding: 20px; }
+
+    header { background: #f3aae0; color: black; padding: 20px 30px; margin: -20px -20px 20px -20px; text-align: center; }
+    header h1 { font-size: 1.8rem; margin-bottom: 5px; }
+
+    nav { background: #f4a0e2; padding: 12px 30px; margin: -20px -20px 20px -20px; text-align: center; }
+    nav a { color: black; text-decoration: none; margin-right: 20px; }
+    nav a:hover { text-decoration: underline; }
+
+    main { max-width: 600px; margin: 30px auto; }
+
+    .box { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; }
+
+    label { display: block; font-weight: bold; margin-bottom: 5px; }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #f3aae0;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      background: #fdf0f9;
+    }
+
+    textarea { height: 100px; }
+
+    button {
+      background: #e595c6;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover { background: #f3aae0; }
+
+    footer { background: #f9b7eb; text-align: center; padding: 15px; margin: 20px -20px -20px -20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Me</h1>
+    <p>Send me a message</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact Me</a>
+  </nav>
+
+  <main>
+    <div class="box">
+      <h2>Get in Touch</h2>
+
+      <!-- FIXED FORM -->
+      <form action="#">
+
+        <label>Name</label>
+        <input type="text" placeholder="Your name">
+
+        <label>Email</label>
+        <input type="email" placeholder="you@example.com">
+
+        <label>Concern</label>
+        <select>
+          <option>-- Select a topic --</option>
+          <option>Message</option>
+          <option>Clarification</option>
+          <option>Feedback</option>
+        </select>
+
+        <label>Message</label>
+        <textarea placeholder="Write your message here..."></textarea>
+
+        <label>
+          <input type="checkbox">
+          I agree to be contacted
+        </label>
+
+        <button type="submit">Send Message</button>
+
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>2026 My Student Profile</p>
+  </footer>
+
+</body>
+</html>
